@@ -34,8 +34,12 @@ class MainApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: const Text("Click"),
-          backgroundColor: const Color.fromARGB(255, 144, 176, 210),
+          backgroundColor: Color.fromARGB(255, 144, 176, 210),
+          child: const Text("Click",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+          ),
         ),
       ),
     );
